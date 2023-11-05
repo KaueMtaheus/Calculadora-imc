@@ -167,3 +167,50 @@ body {
     display: none;
      
 }
+
+/*------------Media query----------------------*/
+
+@media (max-width: 768px) {
+    #container {
+        display: flex;
+        align-items: center;
+
+    }
+
+    #img {
+        display: none;
+    }
+
+
+    #calculator {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    #title {
+        font-size: 1.5rem;
+    }
+
+    .input-box label {
+        font-size: 1rem;
+    }
+
+    .input-field span,
+    .input-field i {
+        font-size: 1rem;
+    }
+
+    .input-field input {
+        font-size: 1rem;
+    }
+
+    #calculate {
+        font-size: 1rem; /* Reduza o tamanho do botão de cálculo */
+    }
+
+    #bmi span:last-child {
+        font-size: 0.75rem; /* Reduza o tamanho da descrição de IMC */
+    }
+
+}
+
