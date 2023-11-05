@@ -170,7 +170,7 @@ body {
 
 /*------------Media query----------------------*/
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     #container {
         display: flex;
         align-items: center;
